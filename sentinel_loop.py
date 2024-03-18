@@ -19,7 +19,7 @@ while grade != -2:
     grade = int(input('enter your grade, -2 to terminate: '))
 
 #termination phase
-if grade_counter != 0:
+if grade_counter != 0:		#to avoid dividing by 0
     print(f'the avg grade is = {total / grade_counter:.2f}')
 else:
     print('No grades have been entered')
