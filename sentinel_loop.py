@@ -20,4 +20,4 @@ while grade != -2:
 
 #termination phase
 if grade == -2:
-    print(f'the avg grade is = {total / grade_counter}')
+    print(f'the avg grade is = {total / grade_counter:.2f}')
